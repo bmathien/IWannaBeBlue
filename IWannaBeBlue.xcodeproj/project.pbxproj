@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE374D9119214B6400FAC409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE374D9019214B6400FAC409 /* Foundation.framework */; };
+		AE374D9319214B6400FAC409 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE374D9219214B6400FAC409 /* CoreGraphics.framework */; };
+		AE374D9519214B6400FAC409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE374D9419214B6400FAC409 /* UIKit.framework */; };
+		AE374D9B19214B6400FAC409 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE374D9919214B6400FAC409 /* InfoPlist.strings */; };
+		AE374D9D19214B6400FAC409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE374D9C19214B6400FAC409 /* main.m */; };
+		AE374DA119214B6400FAC409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE374DA019214B6400FAC409 /* AppDelegate.m */; };
+		AE374DA419214B6400FAC409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE374DA219214B6400FAC409 /* Main.storyboard */; };
+		AE374DA719214B6400FAC409 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE374DA619214B6400FAC409 /* ViewController.m */; };
+		AE374DA919214B6400FAC409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE374DA819214B6400FAC409 /* Images.xcassets */; };
+		AE374DB019214B6400FAC409 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE374DAF19214B6400FAC409 /* XCTest.framework */; };
+		AE374DB119214B6400FAC409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE374D9019214B6400FAC409 /* Foundation.framework */; };
+		AE374DB219214B6400FAC409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE374D9419214B6400FAC409 /* UIKit.framework */; };
+		AE374DBA19214B6400FAC409 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE374DB819214B6400FAC409 /* InfoPlist.strings */; };
+		AE374DBC19214B6400FAC409 /* IWannaBeBlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE374DBB19214B6400FAC409 /* IWannaBeBlueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE374DB319214B6400FAC409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE374D8519214B6400FAC409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE374D8C19214B6400FAC409;
+			remoteInfo = IWannaBeBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE374D8D19214B6400FAC409 /* IWannaBeBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IWannaBeBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE374D9019214B6400FAC409 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE374D9219214B6400FAC409 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE374D9419214B6400FAC409 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE374D9819214B6400FAC409 /* IWannaBeBlue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IWannaBeBlue-Info.plist"; sourceTree = "<group>"; };
+		AE374D9A19214B6400FAC409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE374D9C19214B6400FAC409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE374D9E19214B6400FAC409 /* IWannaBeBlue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IWannaBeBlue-Prefix.pch"; sourceTree = "<group>"; };
+		AE374D9F19214B6400FAC409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE374DA019214B6400FAC409 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE374DA319214B6400FAC409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE374DA519214B6400FAC409 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE374DA619214B6400FAC409 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE374DA819214B6400FAC409 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE374DAE19214B6400FAC409 /* IWannaBeBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IWannaBeBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE374DAF19214B6400FAC409 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE374DB719214B6400FAC409 /* IWannaBeBlueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IWannaBeBlueTests-Info.plist"; sourceTree = "<group>"; };
+		AE374DB919214B6400FAC409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE374DBB19214B6400FAC409 /* IWannaBeBlueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWannaBeBlueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE374D8A19214B6400FAC409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE374D9319214B6400FAC409 /* CoreGraphics.framework in Frameworks */,
+				AE374D9519214B6400FAC409 /* UIKit.framework in Frameworks */,
+				AE374D9119214B6400FAC409 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE374DAB19214B6400FAC409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE374DB019214B6400FAC409 /* XCTest.framework in Frameworks */,
+				AE374DB219214B6400FAC409 /* UIKit.framework in Frameworks */,
+				AE374DB119214B6400FAC409 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE374D8419214B6400FAC409 = {
+			isa = PBXGroup;
+			children = (
+				AE374D9619214B6400FAC409 /* IWannaBeBlue */,
+				AE374DB519214B6400FAC409 /* IWannaBeBlueTests */,
+				AE374D8F19214B6400FAC409 /* Frameworks */,
+				AE374D8E19214B6400FAC409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE374D8E19214B6400FAC409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE374D8D19214B6400FAC409 /* IWannaBeBlue.app */,
+				AE374DAE19214B6400FAC409 /* IWannaBeBlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE374D8F19214B6400FAC409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE374D9019214B6400FAC409 /* Foundation.framework */,
+				AE374D9219214B6400FAC409 /* CoreGraphics.framework */,
+				AE374D9419214B6400FAC409 /* UIKit.framework */,
+				AE374DAF19214B6400FAC409 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE374D9619214B6400FAC409 /* IWannaBeBlue */ = {
+			isa = PBXGroup;
+			children = (
+				AE374D9F19214B6400FAC409 /* AppDelegate.h */,
+				AE374DA019214B6400FAC409 /* AppDelegate.m */,
+				AE374DA219214B6400FAC409 /* Main.storyboard */,
+				AE374DA519214B6400FAC409 /* ViewController.h */,
+				AE374DA619214B6400FAC409 /* ViewController.m */,
+				AE374DA819214B6400FAC409 /* Images.xcassets */,
+				AE374D9719214B6400FAC409 /* Supporting Files */,
+			);
+			path = IWannaBeBlue;
+			sourceTree = "<group>";
+		};
+		AE374D9719214B6400FAC409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE374D9819214B6400FAC409 /* IWannaBeBlue-Info.plist */,
+				AE374D9919214B6400FAC409 /* InfoPlist.strings */,
+				AE374D9C19214B6400FAC409 /* main.m */,
+				AE374D9E19214B6400FAC409 /* IWannaBeBlue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE374DB519214B6400FAC409 /* IWannaBeBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE374DBB19214B6400FAC409 /* IWannaBeBlueTests.m */,
+				AE374DB619214B6400FAC409 /* Supporting Files */,
+			);
+			path = IWannaBeBlueTests;
+			sourceTree = "<group>";
+		};
+		AE374DB619214B6400FAC409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE374DB719214B6400FAC409 /* IWannaBeBlueTests-Info.plist */,
+				AE374DB819214B6400FAC409 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE374D8C19214B6400FAC409 /* IWannaBeBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE374DBF19214B6400FAC409 /* Build configuration list for PBXNativeTarget "IWannaBeBlue" */;
+			buildPhases = (
+				AE374D8919214B6400FAC409 /* Sources */,
+				AE374D8A19214B6400FAC409 /* Frameworks */,
+				AE374D8B19214B6400FAC409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IWannaBeBlue;
+			productName = IWannaBeBlue;
+			productReference = AE374D8D19214B6400FAC409 /* IWannaBeBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE374DAD19214B6400FAC409 /* IWannaBeBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE374DC219214B6400FAC409 /* Build configuration list for PBXNativeTarget "IWannaBeBlueTests" */;
+			buildPhases = (
+				AE374DAA19214B6400FAC409 /* Sources */,
+				AE374DAB19214B6400FAC409 /* Frameworks */,
+				AE374DAC19214B6400FAC409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE374DB419214B6400FAC409 /* PBXTargetDependency */,
+			);
+			name = IWannaBeBlueTests;
+			productName = IWannaBeBlueTests;
+			productReference = AE374DAE19214B6400FAC409 /* IWannaBeBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE374D8519214B6400FAC409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mathien;
+				TargetAttributes = {
+					AE374DAD19214B6400FAC409 = {
+						TestTargetID = AE374D8C19214B6400FAC409;
+					};
+				};
+			};
+			buildConfigurationList = AE374D8819214B6400FAC409 /* Build configuration list for PBXProject "IWannaBeBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE374D8419214B6400FAC409;
+			productRefGroup = AE374D8E19214B6400FAC409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE374D8C19214B6400FAC409 /* IWannaBeBlue */,
+				AE374DAD19214B6400FAC409 /* IWannaBeBlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE374D8B19214B6400FAC409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE374DA919214B6400FAC409 /* Images.xcassets in Resources */,
+				AE374D9B19214B6400FAC409 /* InfoPlist.strings in Resources */,
+				AE374DA419214B6400FAC409 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE374DAC19214B6400FAC409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE374DBA19214B6400FAC409 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE374D8919214B6400FAC409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE374DA719214B6400FAC409 /* ViewController.m in Sources */,
+				AE374DA119214B6400FAC409 /* AppDelegate.m in Sources */,
+				AE374D9D19214B6400FAC409 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE374DAA19214B6400FAC409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE374DBC19214B6400FAC409 /* IWannaBeBlueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE374DB419214B6400FAC409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE374D8C19214B6400FAC409 /* IWannaBeBlue */;
+			targetProxy = AE374DB319214B6400FAC409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE374D9919214B6400FAC409 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE374D9A19214B6400FAC409 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE374DA219214B6400FAC409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE374DA319214B6400FAC409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE374DB819214B6400FAC409 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE374DB919214B6400FAC409 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE374DBD19214B6400FAC409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE374DBE19214B6400FAC409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE374DC019214B6400FAC409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWannaBeBlue/IWannaBeBlue-Prefix.pch";
+				INFOPLIST_FILE = "IWannaBeBlue/IWannaBeBlue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE374DC119214B6400FAC409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWannaBeBlue/IWannaBeBlue-Prefix.pch";
+				INFOPLIST_FILE = "IWannaBeBlue/IWannaBeBlue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE374DC319214B6400FAC409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IWannaBeBlue.app/IWannaBeBlue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWannaBeBlue/IWannaBeBlue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IWannaBeBlueTests/IWannaBeBlueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE374DC419214B6400FAC409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IWannaBeBlue.app/IWannaBeBlue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IWannaBeBlue/IWannaBeBlue-Prefix.pch";
+				INFOPLIST_FILE = "IWannaBeBlueTests/IWannaBeBlueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE374D8819214B6400FAC409 /* Build configuration list for PBXProject "IWannaBeBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE374DBD19214B6400FAC409 /* Debug */,
+				AE374DBE19214B6400FAC409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE374DBF19214B6400FAC409 /* Build configuration list for PBXNativeTarget "IWannaBeBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE374DC019214B6400FAC409 /* Debug */,
+				AE374DC119214B6400FAC409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE374DC219214B6400FAC409 /* Build configuration list for PBXNativeTarget "IWannaBeBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE374DC319214B6400FAC409 /* Debug */,
+				AE374DC419214B6400FAC409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE374D8519214B6400FAC409 /* Project object */;
+}
